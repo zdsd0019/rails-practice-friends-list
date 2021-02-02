@@ -11,32 +11,32 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :first_name %>
-    <%= form.text_field :first_name %>
+  <div class="field form-group" style="width: 98%; margin-left: 1rem; margin-right: 1rem;>
+    <%= form.label :first_name, class:"form-label" %>
+    <%= form.text_field :first_name, class:"form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :last_name %>
-    <%= form.text_field :last_name %>
+  <div class="field form-group" style="width: 98%; margin-left: 1rem; margin-right: 1rem;>
+    <%= form.label :last_name, class:"form-label" %>
+    <%= form.text_field :last_name, class:"form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
+  <div class="field form-group" style="width: 98%; margin-left: 1rem; margin-right: 1rem;>
+    <%= form.label :email, class:"form-label" %>
+    <%= form.text_field :email, class:"form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :phone %>
-    <%= form.text_field :phone %>
+  <div class="field form-group" style="width: 98%; margin-left: 1rem; margin-right: 1rem;>
+    <%= form.label :phone, class:"form-label" %>
+    <%= form.text_field :phone, class:"form-control" %>
   </div>
 
-  <div class="field">
-    <%= form.label :twitter %>
-    <%= form.text_field :twitter %>
+  <div class="field form-group" style="width: 98%; margin-left: 1rem; margin-right: 1rem; margin-bottom: 1rem;">
+    <%= form.label :twitter, class:"form-label" %>
+    <%= form.text_field :twitter, class:"form-control" %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="actions" style="margin-left: 1rem; margin-bottom: 1rem;">
+    <%= form.submit class:"btn btn-primary" %>
   </div>
 <% end %>
