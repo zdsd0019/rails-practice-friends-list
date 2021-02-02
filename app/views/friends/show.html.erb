@@ -1,29 +1,37 @@
 <p id="notice"><%= notice %></p>
 
-<p>
+<div class="card bg-light" style="width: 98%; margin-left: 1rem; margin-right: 1rem;">
+  <div class="card-body">
+<p class="card-title">
   <strong>First name:</strong>
   <%= @friend.first_name %>
 </p>
-
-<p>
+<p class="card-title">
   <strong>Last name:</strong>
   <%= @friend.last_name %>
 </p>
-
-<p>
+<p class="card-title">
   <strong>Email:</strong>
   <%= @friend.email %>
 </p>
 
-<p>
+<p class="card-title">
   <strong>Phone:</strong>
   <%= @friend.phone %>
 </p>
 
-<p>
+<p class="card-title">
   <strong>Twitter:</strong>
   <%= @friend.twitter %>
 </p>
 
-<%= link_to 'Edit', edit_friend_path(@friend), class:"btn btn-secondary" %> |
+<%= link_to 'Edit', edit_friend_path(@friend), class:"btn btn-secondary" %>
 <%= link_to 'Back', friends_path, class:"btn btn-secondary" %>
+
+  </div>
+</div>
+
+
+
+
+
